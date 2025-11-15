@@ -29,7 +29,8 @@ export default defineConfig({
     watch: {
       // Watch feldspar source directory for changes
       ignored: ['!**/packages/feldspar/src/**']
-    }
+    },
+    allowedHosts: ["lab.drflo.de"]
   },
   build: {
     outDir: 'dist',
